@@ -5,7 +5,7 @@ https://github.com/valahraban/AID-World-Info-research-sheet/blob/main/AID%20WI%2
 
 Feel free to use or change the code however you want.
 
-It's just something I made for myself so I'm sorry if it doesn't work for your specific device but I probably won't fix it.
+I'm pretty new to coding and this was something I mainly made for myself so I'm sorry if it doesn't work for your specific device but I probably won't fix it (unless it's something easy and not tedious).
 If someone else wants to continue this and make it more user friendly go ahead my code is free to take.
 
 I included a zip package with the exe, the jdk and the executable jar and an apk.
