@@ -1,6 +1,6 @@
 # Zaltys-Location-Generator
 
-First of all here is the link to a documentation for Zaltys Locations I don't know anything that isn't written there:
+First of all here is the link to a documentation for Zaltys Locations. I don't know anything that isn't written there:
 https://github.com/valahraban/AID-World-Info-research-sheet/blob/main/AID%20WI%20Research%20Sheet.md#zaltys-locations
 
 The apk should work on phones with Android 4.1+ and with a 5.0+ screen (anything smaller will probably have problems)
