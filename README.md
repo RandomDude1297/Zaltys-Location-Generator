@@ -12,5 +12,3 @@ https://github.com/RandomDude1297/Zaltys-Location-Generator/releases/tag/Android
 
 The PC release contains a extra zip with the executable java file, an exe and the jdk folder for the exe and an extra zip with the code.
 https://github.com/RandomDude1297/Zaltys-Location-Generator/releases/tag/PC
-
-The PC branch only contains the java code.
