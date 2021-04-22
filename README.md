@@ -7,7 +7,7 @@ The apk should work on phones with Android 4.1+ and with a 5.0+ screen (anything
 If the text at the bottom of the screen doesn't end with .] then you'll have to mark and select all. Some text got cut off due to your phone being too small.
 The app will also warn you that it's from an unknown creator (cause I am unknown) have no clue how to change that yet would check that later.
 
-The Android branch and release both contain an APK, a zip with the project folder ready to be imported to Android Studio and for those that only want the layout and java code I also included these in separate files.
+The Android release both contain an APK, a zip with the project folder ready to be imported to Android Studio and for those that only want the layout and java code I also included these in separate files.
 https://github.com/RandomDude1297/Zaltys-Location-Generator/releases/tag/Android
 
 The PC release contains a extra zip with the executable java file, an exe and the jdk folder for the exe and an extra zip with the code.
