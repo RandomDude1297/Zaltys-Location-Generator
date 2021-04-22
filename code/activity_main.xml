@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3C3C"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/northwest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label1" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="West"
+        app:layout_constraintStart_toStartOf="@+id/west"
+        app:layout_constraintTop_toBottomOf="@+id/southwest"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/southwest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="lakes:Lake Hylia"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label7" />
+
+    <TextView
+        android:id="@+id/label7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Southwest"
+        app:layout_constraintStart_toStartOf="@+id/southwest"
+        app:layout_constraintTop_toBottomOf="@+id/south"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/south"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:textColorHint="#AAAAAAAA"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label5"
+ 		android:textColor="#bbbbbb" />
+
+    <TextView
+        android:id="@+id/label5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="South"
+        app:layout_constraintStart_toStartOf="@+id/south"
+        app:layout_constraintTop_toBottomOf="@+id/southeast"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/southeast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="villages:Kokiri Forest"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label4" />
+
+    <TextView
+        android:id="@+id/label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Southeast"
+        app:layout_constraintStart_toStartOf="@+id/southeast"
+        app:layout_constraintTop_toBottomOf="@+id/east"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/east"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="forests:Lost Woods"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label3" />
+
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="East"
+        app:layout_constraintStart_toStartOf="@+id/east"
+        app:layout_constraintTop_toBottomOf="@+id/northeast"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/northeast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="villages:Kakariko"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label2" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Northeast"
+        app:layout_constraintStart_toStartOf="@+id/northeast"
+        app:layout_constraintTop_toBottomOf="@+id/north"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/north"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="towns:Castle Town"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label8" />
+
+    <TextView
+        android:id="@+id/label8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="North"
+        app:layout_constraintStart_toStartOf="@+id/north"
+        app:layout_constraintTop_toBottomOf="@+id/northwest"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/west"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="valleys:Gerudo Valley"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label" />
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Northwest"
+        android:textColor="#bbbbbb"
+        app:layout_constraintStart_toStartOf="@+id/northwest"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/threats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="Stalchildren &lt;at_night&gt;"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Threats"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/life"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="Peahats"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Life"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/natives"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/natives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="Hylians"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Natives"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/features"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/features"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="farms:Lon Lon Ranch"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Features"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/biome"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/biome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="plains grassy"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Biome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/climate"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/climate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="mild"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Climate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="field_in_center_of_Hyrule"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+ 		android:textColor="#bbbbbb" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="9"
+        android:hint="Hyrule Field"
+        android:inputType="textPersonName"
+        android:textColor="#bbbbbb"
+        android:textColorHint="#AAAAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+ 		android:textColor="#bbbbbb" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="createLocation"
+        android:text="Create Location"
+        android:textColor="#bbbbbb"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threats" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:isScrollContainer="false"
+        android:scrollHorizontally="false"
+        android:text="Output will appear here"
+        android:textColor="#bbbbbb"
+        android:textIsSelectable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:onClick="openBrowser"
+        android:text="Documentation Zaltys Location"
+        android:textColor="#BBBBBB"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/create"
+        app:layout_constraintEnd_toStartOf="@+id/delete"
+        app:layout_constraintStart_toEndOf="@+id/create"
+        app:layout_constraintTop_toTopOf="@+id/create" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear inputs"
+        android:textSize="8sp"
+        android:onClick="clearInputs"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
