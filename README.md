@@ -8,6 +8,9 @@ If the text at the bottom of the screen doesn't end with .] then you'll have to 
 The app will also warn you that it's from an unknown creator (cause I am unknown) have no clue how to change that yet would check that later.
 
 The Android branch and release both contain an APK, a zip with the project folder ready to be imported to Android Studio and for those that only want the layout and java code I also included these in separate files.
+https://github.com/RandomDude1297/Zaltys-Location-Generator/releases/tag/Android
 
 The PC release contains a executable java file, an exe and the jdk folder for the exe and the code.
+https://github.com/RandomDude1297/Zaltys-Location-Generator/releases/tag/PC
+
 The PC branch only contains the java code.
